@@ -21,7 +21,7 @@ ifneq ($(filter bullhead,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/custom/prebuilt/bootanimation/bullhead.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter pure_hammerhead,$(TARGET_PRODUCT)),)
+ifneq ($(filter hammerhead,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/custom/prebuilt/bootanimation/hammerhead.zip:system/media/bootanimation.zip
 endif
